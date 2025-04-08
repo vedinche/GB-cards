@@ -1,0 +1,78 @@
+.advice-card {
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 32px;
+  width: 100%;
+  height: 100%;
+  background-color: #1947ee;
+  background-image: url(../../images/benefits.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.advice-card--credit {
+  background-image: url(../../images/credit-rating.jpg);
+}
+
+.advice-card--gold {
+  background-image: url(../../images/gold-ingots.jpg);
+}
+
+.advice-card--duty {
+  background-image: url(../../images/duty.jpg);
+}
+
+.advice-card--remmitance {
+  background-image: url(../../images/remittance.jpg);
+}
+
+.advice-card--freedom {
+  background-image: url(../../images/freedom.jpg);
+}
+
+.advice-card--hide-balance {
+  background-image: url(../../images/hide-balance.jpg);
+}
+
+.advice-card--track-credit {
+  background-image: url(../../images/track-credit.jpg);
+}
+
+.advice-card__heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.advice-card__title {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  color: #fff;
+}
+
+.advice-card__info {
+  margin-top: auto;
+}
+
+.advice-card__description {
+  margin: 0 0 20px 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.advice-card__link {
+  border-radius: 8px;
+  display: inline-block;
+  padding: 14px;
+  width: 100%;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+  background: #476bf0;
+}
